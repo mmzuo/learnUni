@@ -1,0 +1,19 @@
+.detail-list {
+  line-height: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0 10px;
+}
+.detail-list .title {
+  font-weight: bold;
+  width: 30%;
+  text-align: right;
+}
+.detail-list .content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding-left: 10px;
+}
+

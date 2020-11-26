@@ -1,0 +1,34 @@
+@import "color";
+@import "variables";
+@mixin overflow($width) {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: $width;
+	width: $width;
+}
+.overflow {
+	@include overflow(80%);
+	background-color: $bgWhiteColor
+}
+.padding-right {
+	padding-right: 10px;
+}
+.color-red {
+	@extend .overflow;
+	color: $red;
+}
+.uni-form-item {
+	display: flex;
+	flex-direction: nowrap;
+	align-items: center;
+	text-align: right;
+	line-height: 36px;
+	.title {
+			width: 20%;
+			@extend .padding-right;
+	}
+	.uni-label-pointer+.uni-label-pointer{
+		padding-left: 10px;
+	}
+}

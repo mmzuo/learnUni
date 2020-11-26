@@ -1,0 +1,50 @@
+{
+	"pages": [{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/index/detail/detail"
+		},
+		{
+			"path": "pages/index/article/article"
+		},
+		{
+			"path": "pages/form/form"
+			
+		}, {
+			"path": "pages/personal/personal",
+			"style": {}
+		}, {
+			"path": "pages/personal/pay/pay",
+			"style": {}
+		}, {
+			"path": "pages/echart/index",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "Uni-app 多端开发",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/tabbar/basics.png",
+			"selectedIconPath": "static/tabbar/basics_cur.png"
+		}, {
+			"pagePath": "pages/form/form",
+			"text": "form表单",
+			"iconPath": "static/tabbar/component.png",
+			"selectedIconPath": "static/tabbar/component_cur.png"
+		}, {
+			"pagePath": "pages/personal/personal",
+			"text": "我的",
+			"iconPath": "static/tabbar/about.png",
+			"selectedIconPath": "static/tabbar/about_cur.png"
+		}]
+	},
+	"usingComponts": true
+}
